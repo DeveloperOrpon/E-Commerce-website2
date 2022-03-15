@@ -1,0 +1,76 @@
+body {
+  font-family: "Poppins";
+}
+
+.navbar-brand img {
+  height: 70px;
+}
+.navbar-nav a {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 10px;
+  padding: 5px;
+}
+.product-display {
+  background-color: aquamarine;
+  width: 100%;
+  height: 700px;
+}
+@media (min-width: 500px) {
+  .manu-class {
+    display: flex;
+    justify-content: end;
+  }
+}
+@media (max-width: 500px) {
+  .manu-class {
+    display: flex;
+    justify-content: left;
+  }
+}
+.background {
+  background-image: url("images/bg-2.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-y: 370px;
+}
+.container {
+  background-image: url("images/bg-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.buynow {
+  background-image: linear-gradient(45deg, rgb(255, 254, 253), rgb(0, 0, 0));
+  border-radius: 8px;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.buynow:hover {
+  background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(255, 254, 254));
+}
+.card-footer {
+  border: none;
+  background-color: white;
+}
+.card {
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 5px 5px 10px lightgray;
+}
+.card img {
+  width: 320px;
+}
+.cat-text {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.box-shaow {
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 5px 5px 10px lightgray;
+}
