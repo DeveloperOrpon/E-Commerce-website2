@@ -54,6 +54,9 @@ body {
   border: none;
   background-color: white;
 }
+.carousel-item {
+  transition: transform 1s ease, opacity 0.75s ease-out;
+}
 .card {
   background-color: white;
   border-radius: 15px;
